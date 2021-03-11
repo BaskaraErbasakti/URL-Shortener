@@ -124,7 +124,7 @@ return array(
 	*/
 
 	'manifest' => storage_path().'/meta',
-
+	error_reporting(E_ALL ^ E_DEPRECATED),
 	/*
 	|--------------------------------------------------------------------------
 	| Class Aliases
